@@ -11,9 +11,9 @@ if(BUILD_ON_JETSON)
   set(fd_known_gpu_archs10 "53 62 72")
 else()
   message("Using New Release Strategy - All Arches Packge")
-  set(fd_known_gpu_archs "35 50 52 60 61 70 75 80 86")
-  set(fd_known_gpu_archs10 "35 50 52 60 61 70 75")
-  set(fd_known_gpu_archs11 "50 60 61 70 75 80")
+  set(fd_known_gpu_archs "70 75 80 86")
+  set(fd_known_gpu_archs10 "70 75")
+  set(fd_known_gpu_archs11 "70 75 80")
 endif()
 
 ######################################################################################
